@@ -1,0 +1,63 @@
+.container1{
+    width: 100%;
+    height: auto;
+    
+}
+.row1{
+    width: 100%;;
+    display: flex;
+    background-color: white;
+    height: 50px;
+}
+.menubtn{
+    width: 66px;
+    height: 100%; 
+    background-color: #3F8A66; 
+    border: none;
+}
+.menubtn img{
+    background-color: transparent;
+    width: 18px; 
+    height: 12px;
+}
+.rightBtns{
+    width: 66px;
+    height: 100%; 
+    background-color: white; 
+    border: none;
+}
+.rightBtns img{
+    background: transparent;
+    width: 16px;
+    height: 16px;
+}
+.menuItems{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    background-color: transparent;
+}
+ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    height: 100%;
+    text-align: right;
+    background-color: transparent;
+}
+button{
+    cursor: pointer;
+}
+a{
+    background-color: #3F8A66;
+    color: white;
+    margin-bottom: 3px;
+}
+// Dropdown Content
+.dropdown-toggle:after { content: none }
+.xyz{
+    width: 100%;
+    text-align: left;
+    border-bottom: 1px solid gray;
+}

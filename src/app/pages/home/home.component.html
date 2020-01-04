@@ -1,0 +1,67 @@
+<div class="container col-12">
+    <!-- Header Search Bar -->
+    <header>
+        <div class="d-flex justify-content-between">
+            <!-- Left Side -->
+            <div class="white search left">
+                <ul class="srchbtngrp">
+                    <li style="width: 20%;" class="d-flex">
+                        <a class="btn font-weight-bold" style="font-size: 12px;">Wireless </a>
+                        <img src="../../../assets/icons/down.svg" alt="">
+                    </li>
+                    <li style="width: 20%;" class="d-flex">
+                        <a class="btn font-weight-bold" style="font-size: 12px;">Broadband </a>
+                        <img src="../../../assets/icons/down.svg" alt="">
+                    </li>
+                    <li class="d-flex slowBro" style="width: 60%;">
+                        <a class="btn slowBrobtn" style="font-size: 12px;">Broadband: Slow Browsing </a>
+                        <img src="../../../assets/icons/down.svg" alt="">
+                    </li>
+                </ul>
+            </div>
+            <!-- Agent Performance  -->
+            <div class="white right" style="width: 18%;">
+                <a class="btn font-weight-bold" style="width: 90%; text-align: left; font-size: 12px;">Agent Wireless </a>
+                <img src="../../../assets/icons/down.svg" alt="">
+            </div>
+        </div>
+    </header>
+    
+    <div style="padding: 0px 25px;">
+        <hr>
+    </div>
+    
+    <!-- First Section -->
+    <section class="d-flex justify-content-between" style="padding: 0px 25px; height: 40%;">
+            <div style="width: 50%;">
+                <app-customer></app-customer>
+            </div>
+            <div style="width: 28%;">
+                <div>
+                    <div class="notification" style="width: 100%">
+                        <div class="d-flex" style="background-color: #FF6060; padding: 20px;">
+                            <img style="color: white;margin-right: 10px;" src="../../../assets/icons/Path 58.svg" alt=""><span style="background-color: transparent; color: white;font-size: 11px;">Internet service ongoing maintenance from 12 Oct - 16 Oct 2018 </span>
+                        </div>
+                    </div>
+                    <app-cti-toolkit></app-cti-toolkit>
+                    <app-billing-status></app-billing-status>
+                </div>
+            </div>
+            <div style="width: 18%;">
+                <app-product-detail></app-product-detail>
+            </div>
+    </section>
+
+    <div style="padding: 0px 25px;">
+        <hr>
+    </div>
+    <!-- Second Section -->
+    <section class="d-flex justify-content-between" style="padding: 0px 25px; height: auto;">
+        <div class="white" style="width: 70%">
+            <app-sr-history></app-sr-history>
+        </div>
+        <div class="white" style="width: 28%;">
+            <app-modern-performance-details></app-modern-performance-details>
+        </div>
+    </section>
+</div>

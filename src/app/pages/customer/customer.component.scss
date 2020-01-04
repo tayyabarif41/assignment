@@ -1,0 +1,49 @@
+input{
+    border: none;
+    width: 90%;
+    border-radius: 0px;
+}
+.menu{
+    background-color: #F6F6F6;
+}
+.menu img{
+    background-color: transparent;
+}
+ul{
+    list-style: none;
+    background-color: transparent;
+    width: 100%;
+    background-color: white !important;
+}
+li{
+    background-color: white !important;
+}
+li img{
+    background-color: transparent;
+}
+li a{
+    margin: 2px;
+}
+span{
+    background-color: transparent;
+}
+small{
+    background-color: transparent;
+    color: red;
+}
+.btngrp{
+    background-color: transparent;
+}
+.btngrp a{
+    // width: 10% !important;
+    border-radius: 10px;
+    margin: 0px 10px;
+}
+.btngrp a img{
+    background-color: transparent;
+}
+.first{
+    padding: 10px 25px;
+}
+
+

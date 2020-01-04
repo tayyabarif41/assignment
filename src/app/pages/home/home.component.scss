@@ -1,0 +1,43 @@
+
+ul{
+    list-style: none;
+    display: flex;
+    background-color: transparent;
+    margin: 0px;
+    padding: 0px;
+}
+.srchbtngrp li a{
+    border-radius: 0px;
+    width: 90%;
+    text-align: left;
+} 
+.srchbtngrp li img{
+    float: right;
+    cursor: pointer;
+}  
+
+.slowBro{
+    border: none !important;
+}
+.slowBrobtn{
+    width: 96% !important;
+}
+header{
+    padding: 0px 25px;
+}
+li{
+    background-color: transparent;
+    border-right: 1px solid #F5F5F5;
+
+}
+.left{
+    width: 80%;  
+    box-shadow: 0px 2px #d0cfcf;
+}
+.right{
+    text-align: left;
+    box-shadow: 0px 2px #d0cfcf;
+}
+img{
+    background-color: transparent;
+}
